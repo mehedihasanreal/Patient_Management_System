@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Patient Information</title>
+	<link rel="stylesheet" href="learning.css">
+</head>
+<body>
+	<h3>Give Your Patient information</h3>
+<div class="container">
+	<form action="connection.php" method="POST">
+    <label>FIRST NAME</label><br>
+  	   <input type="text" name="FN" placeholder="FIRST NAME"><br><br>
+  	<label>LAST NAME</label><br>
+  	   <input type="text" name="LN" placeholder="LAST NAME"><br><br>
+  	<label>GENDER</label><br>
+        <select name="G">
+          <option>Male</option>
+          <option>Female</option>
+          <option>Other</option>
+        </select><br><br>
+    <label>AGE:(year)</label><br>
+        <input type="number" name="A" placeholder="AGE"><br><br>
+    <label>E-MAIL:</label><br>
+        <input type="email" name="E" placeholder="E-MAIL"><br><br>
+    <label>PHONE NUMBER</label><br>
+        <input type="number" name="PN" placeholder="PHONE NUMBER"><br><br>
+  	<button type="submit">Login</button>
+	</form>
+</div>
+
+</body>
+</html>
